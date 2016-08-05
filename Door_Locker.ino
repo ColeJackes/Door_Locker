@@ -22,3 +22,9 @@ void loop(){
   
   digitalWrite(ledPin, LOW);
 }
+
+void yolo(){
+  if (sensorValue > 9000) {
+    Serial.print("Yolo");
+  }
+}
